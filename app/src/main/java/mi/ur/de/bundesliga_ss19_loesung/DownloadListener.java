@@ -1,4 +1,4 @@
-package mi.ur.de.uebung8_bundesliga_starter;
+package mi.ur.de.bundesliga_ss19_loesung;
 
 public interface DownloadListener {
 

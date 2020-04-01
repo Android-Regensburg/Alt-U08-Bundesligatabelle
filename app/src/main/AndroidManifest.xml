@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mi.ur.de.uebung8_bundesliga_starter">
+    package="mi.ur.de.bundesliga_ss19_loesung">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -22,5 +22,7 @@
         </activity>
 
     </application>
+
+
 
 </manifest>
