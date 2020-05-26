@@ -55,7 +55,8 @@ Implementieren Sie zunächst die Klasse `TableItem`, die zur Modellierung eines 
 Es steht Ihnen natürlich frei herauszufinden, welche weiteren Informationen von *OpenLigaDB* zur Verfügung gestellt werden und die Klasse `TableItem` (sowie das dazugehörige Layout) entsprechend zu erweitern.
 
 Vervollständigen Sie die Klassse `TableItemAdapter`, indem Sie die TextView-Elemente des Listeneintrags in der Methode `getView()` referenzieren und mit den entsprechenden Werten des jeweiligen `TableItem`-Objekts befüllen.
-Zusätzlich soll die Hintergrundfarbe des jeweiligen Eintrags abhängig von der Platzierung angepasst werden. Dadurch sollen die Qualifikationsplätze für Champions- und Europa League, sowie die direkten Abstiegsplätze und der Relegationsplatz hervorgehoben werden. Sie können hierfür folgende Standardfarben des Android-Frameworks verwenden:
+Zusätzlich soll die Hintergrundfarbe des jeweiligen Eintrags abhängig von der Platzierung angepasst werden. Dadurch sollen die Qualifikationsplätze für Champions- und Europa League, sowie die direkten Abstiegsplätze und der Relegationsplatz hervorgehoben werden. Sie können hierfür folgende Standardfarben des Android-Frameworks verwenden:  
+
 * Platz 1-4: `android.R.color.holo_green_dark`  
 * Platz 5-6: `android.R.color.holo_green_light`  
 * Platz 7-15: `android.R.color.darker_gray`  
@@ -85,7 +86,8 @@ Um die Nebenläufigkeit zu testen, bietet es sich auch hier an, in der `run()`-M
   
 Im letzten Abschnitt soll nun das Herunterladen und Verarbeiten der Bundesligadaten im Rahmen der `run()`-Methode in `TableDownloadTask` implementiert werden.
   
-Orientieren Sie sich für den Aufbau der Http-Kommunikation an den Kursmaterialien. Eine einfache Http-Kommunikataion sollte folgendem Ablauf folgen:
+Orientieren Sie sich für den Aufbau der Http-Kommunikation an den Kursmaterialien. Eine einfache Http-Kommunikataion sollte folgendem Ablauf folgen:  
+
 * Aufbau der `HttpUrlConnection` auf Basis eines `URL`-Objekts  
 * Festlegung relevanter Verbindungsparameter (z.B. Timeouts, Art der Anfrage)  
 * Anfrage an den Server und Überprüfung des Response-Codes  
