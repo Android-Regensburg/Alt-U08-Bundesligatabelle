@@ -25,11 +25,6 @@ header-includes: |
 
 ![Cover für die achte Übungsaufgabe](./docs/cover.png)
 
-## Downloads
-
-- [Download des Starterpakets](https://github.com/Android-Regensburg/U08-Bundesligatabelle/archive/starter.zip)
-- [Download des Lösungsvorschlag](https://github.com/Android-Regensburg/U08-Bundesligatabelle/archive/solution.zip)
-
 ## Aufgabe
 
 Das Ziel dieser Aufgabe ist die Implementierung einer App zur Darstellung der (aktuellen) Bundesligatabelle. Um bereits bekannte Konzepte, wie die Darstellung von Informationen in einem ListView und die Bearbeitung bestimmter Aufgaben in einem nebenläufigen Thread, mit den neu erlernten Konzepten der Netzwerkprogrammierung zu verknüpfen, sollen die Bundesligadaten über einen Server (*OpenLigaDB*) bezogen werden.
