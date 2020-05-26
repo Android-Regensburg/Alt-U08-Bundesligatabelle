@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bundesligatabelle</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="team">Team</string>
+    <string name="played_games">Sp.</string>
+    <string name="points">Pkt.</string>
+    <string name="goals">Tore</string>
+</resources>
