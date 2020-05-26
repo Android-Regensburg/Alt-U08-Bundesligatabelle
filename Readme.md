@@ -98,5 +98,8 @@ Bevor Sie die Ligadaten an ihren `OnDownloadListener` übergeben, müssen Sie ih
 
 ## Anhang
 ### Screenshots
-![Screenshot der Bundesligatabelle-App](./docs/screenshot-1.png =400x "Obere Tabellenhälfte")
-![Screenshot der Bundesligatabelle-App](./docs/screenshot-2.png =400x "Untere Tabellenhälfte")
+
+| | |
+|-|-|
+|![Screenshot der Bundesligatabelle-App](./docs/screenshot-1.png "Obere Tabellenhälfte"){ height=8cm } |![Screenshot der Bundesligatabelle-App](./docs/screenshot-2.png =400x "Untere Tabellenhälfte"){ height=8cm } |
+
